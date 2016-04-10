@@ -13,7 +13,7 @@ class PlaylistsController < ApplicationController
   end
 
   def show
-    @playlists = Playlist.find(params[:id])
+    @playlist = Playlist.find(params[:id])
   end
 
 private
